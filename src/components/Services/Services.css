@@ -1,0 +1,167 @@
+/* Bussiness Service Start Here */
+
+#bussiness-service {
+padding-bottom: 100px;
+
+}
+#bussiness-service .bussiness-service-wrapper{}
+ .top-heading {
+padding: 100px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+ .top-heading .top-heading-content {
+ max-width: 511px;
+          text-align: center;
+
+}
+
+ .top-heading h2{
+
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+
+text-align: center;
+letter-spacing: 0.2px;
+
+color: var(--text-color);
+
+/* max-width: 480px ; */
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+ .top-heading p{
+
+
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+text-align: center;
+letter-spacing: 0.2px;
+
+
+color: var(--secondery-text-color);
+
+
+
+
+}
+
+
+
+#bussiness-service .bussiness-service-wrapper .bussiness-service-content {
+
+  display: flex;
+  /* align-items: center; */
+  gap: 120px;
+  
+
+}
+#bussiness-service .bussiness-service-wrapper .bussiness-service-content .bsc-img {
+  height: 442px;
+  width: 600px;
+  background: url('../images/bs-cover.jpg');
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bussiness-service .bussiness-service-wrapper .bussiness-service-content .bsc-img .bsii {
+  height: 98px;
+  width: 97px;
+  
+}
+
+#bussiness-service .bussiness-service-wrapper .bussiness-service-content .bsc-img img{
+  width: 100%;
+}
+
+#bussiness-service .bussiness-service-wrapper .bussiness-service-content .bsc-txt {
+flex: 1;
+
+
+display: flex;
+flex-direction: column;
+gap: 30px;
+justify-content: space-around;
+
+}
+
+#bussiness-service .bussiness-service-wrapper .bussiness-service-content .bsc-txt h2{
+
+
+
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+
+letter-spacing: 0.2px;
+
+
+color: var(--text-color);
+
+}
+
+
+#bussiness-service .bussiness-service-wrapper .bussiness-service-content .bsc-txt p{
+
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: var(--secondery-text-color);
+letter-spacing: 0.2px;
+
+
+
+
+
+
+
+}
+
+
+#bussiness-service .bussiness-service-wrapper .bussiness-service-content .bsc-txt .bsc-txt-it{
+  display: flex;
+  gap:20px ;
+}
+
+#bussiness-service .bussiness-service-wrapper .bussiness-service-content .bsc-txt .bsc-txt-it .bsc-txt-it-img{}
+
+#bussiness-service .bussiness-service-wrapper .bussiness-service-content .bsc-txt .bsc-txt-it .bsc-txt-it-txt{}
+
+#bussiness-service .bussiness-service-wrapper .bussiness-service-content .bsc-txt .bsc-txt-it .bsc-txt-it-txt h6{
+
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: var(--text-color);
+letter-spacing: 0.1px;
+
+}
+
+
+
+#bussiness-service .bussiness-service-wrapper .bussiness-service-content .bsc-txt .bsc-txt-it .bsc-txt-it-txt p{
+
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: var(--secondery-text-color);
+letter-spacing: 0.2px;
+
+
+}
+
+
+/* Bussiness Service End Here */

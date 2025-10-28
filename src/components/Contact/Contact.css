@@ -1,0 +1,128 @@
+/* ================= Contact Form Start Here================= */
+
+#contact-form {
+
+  /* position: relative;
+  top: -350px; */
+
+  margin-top: -350px;
+ 
+
+}
+#contact-form .contact-form-wrapper{
+  display: flex;
+  
+
+
+
+  background: var(--light-background-color);
+  box-shadow: 0px 1px 15px -4px #c0c2c0;
+}
+#contact-form .contact-form-wrapper .form-img{
+  width: 364px;
+  height: 644px;
+  
+}
+#contact-form .contact-form-wrapper .form-img img{
+  width: 100%;
+}
+#contact-form .contact-form-wrapper .form-info{
+  flex: 1;
+  padding: 40px 50px;
+}
+#contact-form .contact-form-wrapper .form-info form{} 
+#contact-form .contact-form-wrapper .form-info form h2{ 
+
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+
+letter-spacing: 0.2px;
+
+color:var(--text-color);
+
+
+}
+
+
+#contact-form .contact-form-wrapper .form-info form .input-grps{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#contact-form .contact-form-wrapper .form-info form .input-grp{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#contact-form .contact-form-wrapper .form-info form .input-grp label{
+
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: var(--text-color);
+letter-spacing: 0.2px;
+
+
+
+
+}
+#contact-form .contact-form-wrapper .form-info form .input-grp input, select{
+
+background: #F9F9F9;
+border: 1px solid #BDBDBD;
+border-radius: 5px;
+padding: 10px 20px;
+width: 100%;
+
+
+
+}
+#contact-form .contact-form-wrapper .form-info form .input-grp input::placeholder{
+
+
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+
+ color: var(--secondery-text-color);
+
+
+}
+
+
+
+#contact-form .contact-form-wrapper .form-info form .input-grp input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+
+#contact-form .contact-form-wrapper .form-info form  button{
+
+display: inline-block;
+margin-top: 40px;
+width: 100%;
+padding: 15px 40px;
+background: var(--primary-color);
+border-radius: 5px;
+
+
+}
+#contact-form .contact-form-wrapper .form-info form  button a{
+
+  /* display: inline-block; */
+
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+color: var(--light-text-color);
+text-align: center;
+letter-spacing: 0.2px;
+
+
+  
+}
+
+
+/* =================Contact Form  End Here================= */

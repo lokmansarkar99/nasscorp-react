@@ -1,0 +1,61 @@
+/* ============ Stats Start Here ============ */
+
+
+#stats {
+    position: relative;
+    top: -40px;
+}
+
+#stats .stats-wrapper {
+padding-bottom: 80px;
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+
+    background: var(--light-background-color);
+
+
+}
+#stats .stats-wrapper .stats-item {
+display: flex;
+gap: 15px;
+align-items: center;
+
+    /* max-width: 238px; */
+    padding: 20px 53px 20px 20px ;
+}
+#stats .stats-wrapper .stats-item .icon {
+  height: 48px;
+  width: 48px;
+}
+#stats .stats-wrapper .stats-item .icon img {
+  width: 100%;
+}
+
+
+#stats .stats-wrapper .stats-item .info {
+
+}
+#stats .stats-wrapper .stats-item .info h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+
+  letter-spacing: 0.1px;
+
+  color: var(--text-color);
+}
+#stats .stats-wrapper .stats-item .info h6 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+
+  color: var(--secondery-text-color);
+  text-transform: uppercase;
+}
+
+
+
+/* ============ Stats End Here ============ */

@@ -1,0 +1,63 @@
+/* ============ Navbar Start Here ============ */
+
+nav {
+  padding: 20px 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav-container-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-container-items .logo p {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--light-text-color);
+}
+.nav-container-items .menu {
+}
+.nav-container-items .nav-container-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-container-items .menu .menu-item {
+  display: flex;
+  gap: 39px;
+  align-items: center;
+}
+.nav-container-items .menu .menu-item ul {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-container-items .menu .menu-item ul li a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: var(--light-text-color);
+}
+
+.nav-container-items .menu .menu-item .menu-icon {
+  display: flex;
+  gap: 4px;
+  /* position: relative;
+    top: 5px; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* ============ Navbar End Here ============ */

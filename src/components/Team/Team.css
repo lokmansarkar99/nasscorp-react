@@ -1,0 +1,73 @@
+/* ================= Team Start Here================= */
+
+#team {
+  padding: 80px 0;
+}
+#team .team-wrapper{
+
+display: flex;
+gap: 30px;
+align-items: center;
+justify-content: space-between;
+
+}
+#team .team-wrapper .team-person{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+gap: 5px;
+padding: 30px 51px;
+box-shadow: 0px 1px 15px -4px #c0c2c0;
+min-height: 335px;
+}
+#team .team-wrapper .team-person .team-avatar{
+  width: 128px;
+  height: 128px;
+}
+#team .team-wrapper .team-person .team-avatar img{
+  width: 100%;
+}
+#team .team-wrapper .team-person h5{
+
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: var(--primary-color);
+text-align: center;
+letter-spacing: 0.2px;
+
+
+
+
+
+
+}
+#team .team-wrapper .team-person h4{
+
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: var(--text-color);
+text-align: center;
+letter-spacing: 0.1px;
+
+
+
+}
+#team .team-wrapper .team-person p{
+
+
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+
+text-align: center;
+letter-spacing: 0.2px;
+color: var(--secondery-text-color);
+
+
+  
+}
+
+/* ================= Team End Here================= */

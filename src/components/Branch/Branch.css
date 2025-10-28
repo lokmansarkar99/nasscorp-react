@@ -1,0 +1,41 @@
+/* ================= Branch Start Here================= */
+
+#branch {
+  background: var(--dark-background-color);
+  min-height: 807px;
+}
+#branch .branch-wrapper{
+padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+#branch .branch-wrapper .branch-info{ flex: 1;}
+#branch .branch-wrapper .branch-info h2{
+
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+
+letter-spacing: 0.2px;
+color: var(--light-text-color);
+padding-bottom: 15px;
+
+
+}
+#branch .branch-wrapper .branch-info p{
+
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: var(--light-text-color); 
+letter-spacing: 0.2px;
+ 
+
+}
+#branch .branch-wrapper .branch-img { flex: 1;}
+#branch .branch-wrapper .branch-img img{}
+
+
+/* ================= Branch End Here================= */

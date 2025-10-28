@@ -1,0 +1,102 @@
+/* =================Footer Start Here================= */
+
+footer{
+  /* position: relative;
+  top: -250px; */
+  padding: 80px 56px 0px 56px;
+
+  /* margin-bottom: -250px; */
+}
+
+footer .footer-wrapper{
+display: flex;
+flex-direction: column;
+gap: 80px;
+
+}
+footer .footer-wrapper .footer-items{ 
+
+display: flex;
+justify-content: space-between;
+
+}
+
+footer .footer-wrapper .footer-items .footer-item{
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 25px;
+}
+footer .footer-wrapper .footer-items .footer-item h3{
+
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: var(--text-color);
+letter-spacing: 0.1px;
+ 
+
+
+}
+footer .footer-wrapper .footer-items .footer-item p{
+
+
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: var(--secondery-text-color);
+letter-spacing: 0.2px;
+
+
+
+
+}
+footer .footer-wrapper .footer-items .footer-item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .footer-wrapper .footer-items .footer-item ul li a{
+
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: var(--secondery-text-color);
+letter-spacing: 0.2px;
+
+
+
+
+}
+
+footer .footer-wrapper .footer-items .footer-item .socials{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer .footer-wrapper .copyright{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-wrapper .copyright p{
+  /* Made With Love By Figmaland All Right Reserved */
+
+
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: var(--secondery-text-color);
+letter-spacing: 0.2px;
+
+
+padding: 10px 0 30px 0;
+
+
+}
+
+
+/* =================Footer End Here================= */
